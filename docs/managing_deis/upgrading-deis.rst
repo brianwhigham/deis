@@ -123,7 +123,7 @@ If the process were to fail, the old version can be restored manually by reinsta
 
     $ /tmp/upgrade/deisctl stop platform
     $ /tmp/upgrade/deisctl uninstall platform
-    $ /tmp/upgrade/deisctl config platform set version=v1.10.0
+    $ /tmp/upgrade/deisctl config platform set version=v1.9.0
     $ /opt/bin/deisctl refresh-units
     $ /opt/bin/deisctl install platform
     $ /opt/bin/deisctl start platform
